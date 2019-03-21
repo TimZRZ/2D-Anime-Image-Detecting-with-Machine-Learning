@@ -47,4 +47,5 @@ Currently the code for advanced testing (testing images of out database and addi
   4. In "test.py", change the range of i in line 72 with the number of your test images.  
 After doing this modification, you can run "test.py" and the new image with tag will be generated under the folder "test_image_resize". By the way, please do not use image with too large size.  
 The output result for advanced test will look like this:  
-![image](https://github.com/TimZRZ/2D-Anime-Image-Detecting-with-Machine-Learning/raw/master/readme_image/output1.png)  
+![image](https://github.com/TimZRZ/2D-Anime-Image-Detecting-with-Machine-Learning/raw/master/readme_image/output1.jpg)  
+Tip: It is better keep the format of testing image in ".jpg".
