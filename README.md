@@ -1,2 +1,7 @@
 # 2D-Anime-Image-Detecting-with-Machine-Learning
-With the development of GPU and machine learning algorithm, Computer Vision field has huge breakthrough on object detection technology. Image detection, which is currently one of the most popular and classical topics in Computer Vision, is getting more completed. In my project, I will review the former method of image detection based on machine learning with TensorFlow and focus on the detection of 2D anime image. The final goal of this project is to get a model for detecting the elements in 2D anime image. I will use the public dataset on Kaggle named “Safebooru – Anime Image Metadata” to train and test my model.
+System: Windows 10   
+Develope Tool: Anaconda, Visual Studio Code  
+Python Version: 3.6
+Packages: tensorflow 1.12.0, tensorflow-base 1.12.0, tensorboard 1.12.2  
+
+How to Execute:  
