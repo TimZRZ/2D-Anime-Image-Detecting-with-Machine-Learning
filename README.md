@@ -28,17 +28,17 @@ If you want to execute without the database I have already generated, please fol
   
  For training data, run "train.py". The training result will be saved in "train_saver" folder and the training record will be stored in "training_output.txt".  
 The output file for tensorboard is in "output" folder. You can use tensorboard to check the output:  
-![image](https://github.com/TimZRZ/ERG_NBA/raw/master/NBA_Analysis/readme_image/tensorboard.png)  
+![image](https://github.com/TimZRZ/2D-Anime-Image-Detecting-with-Machine-Learning/raw/master/NBA_Analysis/readme_image/tensorboard.png)  
      
 You will see the text of output similar to this:  
-![image](https://github.com/TimZRZ/ERG_NBA/raw/master/NBA_Analysis/readme_image/train.png)  
+![image](https://github.com/TimZRZ/2D-Anime-Image-Detecting-with-Machine-Learning/raw/master/NBA_Analysis/readme_image/train.png)  
    
 For testing data, run "test.py". The testing result will be printed on the terminal.  
 The output will look like this:  
-![image](https://github.com/TimZRZ/ERG_NBA/raw/master/NBA_Analysis/readme_image/test.png)  
+![image](https://github.com/TimZRZ/2D-Anime-Image-Detecting-with-Machine-Learning/raw/master/NBA_Analysis/readme_image/test.png)  
   
 Two graph will be also generated to show the percentage of success:  
-![image](https://github.com/TimZRZ/ERG_NBA/raw/master/NBA_Analysis/readme_image/Figure_1.png)  
+![image](https://github.com/TimZRZ/2D-Anime-Image-Detecting-with-Machine-Learning/raw/master/NBA_Analysis/readme_image/Figure_1.png)  
   
 Currently the code for advanced testing (testing images of out database and adding tags on image) have been commented. If you want to try the advanced testing, please follow next few steps:  
   1. Create a new folder called "test_image_resize", put the image files you want to test into this folder.  
@@ -47,4 +47,4 @@ Currently the code for advanced testing (testing images of out database and addi
   4. In "test.py", change the range of i in line 72 with the number of your test images.  
 After doing this modification, you can run "test.py" and the new image with tag will be generated under the folder "test_image_resize". By the way, please do not use image with too large size.  
 The output result for advanced test will look like this:  
-![image](https://github.com/TimZRZ/ERG_NBA/raw/master/NBA_Analysis/readme_image/output1.png)  
+![image](https://github.com/TimZRZ/2D-Anime-Image-Detecting-with-Machine-Learning/raw/master/NBA_Analysis/readme_image/output1.png)  
